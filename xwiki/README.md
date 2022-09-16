@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `ppc64le` builds of [the `xwiki` official image](https://hub.docker.com/_/xwiki) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,15 +26,9 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`14`, `14.7`, `14.7.0`, `14-mysql-tomcat`, `14.7-mysql-tomcat`, `14.7.0-mysql-tomcat`, `mysql-tomcat`, `stable-mysql-tomcat`, `stable-mysql`, `stable`, `latest`](https://github.com/xwiki-contrib/docker-xwiki/blob/a1effa1dc51b3d3b478d7250ca1ffdbdc2bdeae7/14/mysql-tomcat/Dockerfile)
--	[`14-postgres-tomcat`, `14.7-postgres-tomcat`, `14.7.0-postgres-tomcat`, `postgres-tomcat`, `stable-postgres-tomcat`, `stable-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/a1effa1dc51b3d3b478d7250ca1ffdbdc2bdeae7/14/postgres-tomcat/Dockerfile)
--	[`14-mariadb-tomcat`, `14.7-mariadb-tomcat`, `14.7.0-mariadb-tomcat`, `mariadb-tomcat`, `stable-mariadb-tomcat`, `stable-mariadb`](https://github.com/xwiki-contrib/docker-xwiki/blob/a1effa1dc51b3d3b478d7250ca1ffdbdc2bdeae7/14/mariadb-tomcat/Dockerfile)
--	[`14.4`, `14.4.4`, `14.4-mysql-tomcat`, `14.4.4-mysql-tomcat`](https://github.com/xwiki-contrib/docker-xwiki/blob/d0c9810571c23301d9252e1665734ab1bef61aee/14.4/mysql-tomcat/Dockerfile)
--	[`14.4-postgres-tomcat`, `14.4.4-postgres-tomcat`](https://github.com/xwiki-contrib/docker-xwiki/blob/d0c9810571c23301d9252e1665734ab1bef61aee/14.4/postgres-tomcat/Dockerfile)
--	[`14.4-mariadb-tomcat`, `14.4.4-mariadb-tomcat`](https://github.com/xwiki-contrib/docker-xwiki/blob/d0c9810571c23301d9252e1665734ab1bef61aee/14.4/mariadb-tomcat/Dockerfile)
--	[`13`, `13.10`, `13.10.9`, `13-mysql-tomcat`, `13.10-mysql-tomcat`, `13.10.9-mysql-tomcat`, `lts-mysql-tomcat`, `lts-mysql`, `lts`](https://github.com/xwiki-contrib/docker-xwiki/blob/e7830964f092a72371da2c44ed870b63bd36af58/13/mysql-tomcat/Dockerfile)
--	[`13-postgres-tomcat`, `13.10-postgres-tomcat`, `13.10.9-postgres-tomcat`, `lts-postgres-tomcat`, `lts-postgres`](https://github.com/xwiki-contrib/docker-xwiki/blob/e7830964f092a72371da2c44ed870b63bd36af58/13/postgres-tomcat/Dockerfile)
--	[`13-mariadb-tomcat`, `13.10-mariadb-tomcat`, `13.10.9-mariadb-tomcat`, `lts-mariadb-tomcat`, `lts-mariadb`](https://github.com/xwiki-contrib/docker-xwiki/blob/e7830964f092a72371da2c44ed870b63bd36af58/13/mariadb-tomcat/Dockerfile)
+**WARNING:** THIS IMAGE *IS NOT SUPPORTED* ON THE `ppc64le` ARCHITECTURE
+
+[![ppc64le/xwiki build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/xwiki.svg?label=ppc64le/xwiki%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/xwiki/)
 
 # Quick reference (cont.)
 

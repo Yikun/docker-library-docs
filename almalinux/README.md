@@ -14,6 +14,8 @@ WARNING:
 
 -->
 
+**Note:** this is the "per-architecture" repository for the `ppc64le` builds of [the `almalinux` official image](https://hub.docker.com/_/almalinux) -- for more information, see ["Architectures other than amd64?" in the official images documentation](https://github.com/docker-library/official-images#architectures-other-than-amd64) and ["An image's source changed in Git, now what?" in the official images FAQ](https://github.com/docker-library/faq#an-images-source-changed-in-git-now-what).
+
 # Quick reference
 
 -	**Maintained by**:  
@@ -24,12 +26,14 @@ WARNING:
 
 # Supported tags and respective `Dockerfile` links
 
--	[`8.5`, `8.5-20220510`](https://github.com/AlmaLinux/docker-images/blob/cc33e53ccd8b33288eb3fbce9fd3bc308272c162/Dockerfile-x86_64-default)
--	[`8.5-minimal`, `8.5-minimal-20220510`](https://github.com/AlmaLinux/docker-images/blob/cc33e53ccd8b33288eb3fbce9fd3bc308272c162/Dockerfile-x86_64-minimal)
--	[`latest`, `8`, `8.6`, `8.6-20220901`](https://github.com/AlmaLinux/docker-images/blob/1ff60edf414285a260ad40a050841f66f8cb6ad8/Dockerfile-x86_64-default)
--	[`minimal`, `8-minimal`, `8.6-minimal`, `8.6-minimal-20220901`](https://github.com/AlmaLinux/docker-images/blob/1ff60edf414285a260ad40a050841f66f8cb6ad8/Dockerfile-x86_64-minimal)
--	[`9`, `9.0`, `9.0-20220901`](https://github.com/AlmaLinux/docker-images/blob/824c8437333f8dda7888a0d3b745dadd75723fdc/Dockerfile-x86_64-default)
--	[`9-minimal`, `9.0-minimal`, `9.0-minimal-20220901`](https://github.com/AlmaLinux/docker-images/blob/824c8437333f8dda7888a0d3b745dadd75723fdc/Dockerfile-x86_64-minimal)
+-	[`8.5`, `8.5-20220510`](https://github.com/AlmaLinux/docker-images/blob/cc33e53ccd8b33288eb3fbce9fd3bc308272c162/Dockerfile-ppc64le-default)
+-	[`8.5-minimal`, `8.5-minimal-20220510`](https://github.com/AlmaLinux/docker-images/blob/cc33e53ccd8b33288eb3fbce9fd3bc308272c162/Dockerfile-ppc64le-minimal)
+-	[`latest`, `8`, `8.6`, `8.6-20220901`](https://github.com/AlmaLinux/docker-images/blob/e70edacf650f2439b82fcbe72886d911a91c8f14/Dockerfile-ppc64le-default)
+-	[`minimal`, `8-minimal`, `8.6-minimal`, `8.6-minimal-20220901`](https://github.com/AlmaLinux/docker-images/blob/e70edacf650f2439b82fcbe72886d911a91c8f14/Dockerfile-ppc64le-minimal)
+-	[`9`, `9.0`, `9.0-20220901`](https://github.com/AlmaLinux/docker-images/blob/f4af629d22f7aa5dd24b7998c2e6bd63559ccff0/Dockerfile-ppc64le-default)
+-	[`9-minimal`, `9.0-minimal`, `9.0-minimal-20220901`](https://github.com/AlmaLinux/docker-images/blob/f4af629d22f7aa5dd24b7998c2e6bd63559ccff0/Dockerfile-ppc64le-minimal)
+
+[![ppc64le/almalinux build status badge](https://img.shields.io/jenkins/s/https/doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/almalinux.svg?label=ppc64le/almalinux%20%20build%20job)](https://doi-janky.infosiftr.net/job/multiarch/job/ppc64le/job/almalinux/)
 
 # Quick reference (cont.)
 
@@ -62,13 +66,13 @@ WARNING:
 
 The default (platform) image is a general-purpose image with a full DNF stack and basic tools like find, tar, vi, etc.
 
-The `almalinux:latest` tag will always point to the latest stable release of the default image. Major releases and minor releases are also tagged with their version (e.g. `almalinux:8` or `almalinux:8.4`).
+The `ppc64le/almalinux:latest` tag will always point to the latest stable release of the default image. Major releases and minor releases are also tagged with their version (e.g. `ppc64le/almalinux:8` or `ppc64le/almalinux:8.4`).
 
 ## Minimal image
 
 The minimal image is a stripped-down image that uses the microdnf package manager and contains a very limited package set. It is designed for applications that come with their own dependencies bundled (e.g. NodeJS, Python).
 
-The `almalinux:minimal` tag always points to the most recent version of the minimal image. Tags for major (e.g. `almalinux:8-minimal`) and minor (e.g. `almalinux:8.4-minimal`) releases are also available.
+The `ppc64le/almalinux:minimal` tag always points to the most recent version of the minimal image. Tags for major (e.g. `ppc64le/almalinux:8-minimal`) and minor (e.g. `ppc64le/almalinux:8.4-minimal`) releases are also available.
 
 ### Upgrade policy
 
